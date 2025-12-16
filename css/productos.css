@@ -1,0 +1,155 @@
+/* === general === */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.header .logo img {
+    height: 120px;  
+    width: auto;
+}
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;   
+    color: #00157a;              
+}
+
+/* === header simple === */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: #00157a;   
+    color: #ffffff;              
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.95rem;
+}
+
+.logo-circulo {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    color: #00157a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 0.9rem;
+}
+
+.nav a.activo {
+    text-decoration: underline;
+}
+
+/* === contenido === */
+
+.main {
+    max-width: 1000px;
+    margin: 16px auto;
+    padding: 0 16px;
+}
+
+.titulo {
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+}
+
+/* === grilla de productos === */
+
+.contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 12px;
+}
+
+/* card simple */
+.card-producto {
+    border: 1px solid #00157a;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.card-producto img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 6px;
+}
+
+.card-producto h3 {
+    font-size: 0.95rem;
+    margin-bottom: 4px;
+}
+
+.card-producto p {
+    font-size: 0.8rem;
+    margin: 2px 0;
+}
+
+/* parte de abajo: cantidad + botón */
+
+.card-footer {
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+}
+
+.card-footer input {
+    width: 50px;
+    padding: 2px;
+    font-size: 0.8rem;
+}
+
+.card-footer button {
+    flex: 1;
+    border: none;
+    padding: 4px 6px;
+    font-size: 0.8rem;
+    border-radius: 4px;
+    background-color: #00157a;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.filtros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    background-color: #dfe8ff;
+}
+
+.filtros input,
+.filtros select,
+.filtros button {
+    padding: 8px 10px;
+    font-size: 1rem;
+}
+

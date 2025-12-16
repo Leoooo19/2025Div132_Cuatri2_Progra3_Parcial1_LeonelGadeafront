@@ -1,0 +1,87 @@
+/* Reseteo simple */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo general */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f0f0f0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor principal */
+main {
+    background: white;
+    padding: 25px;
+    width: 320px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+/* Título */
+#titulo {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: #222;
+}
+
+/* Contenedor del login */
+.inicio_usuario {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Label */
+.inicio_usuario label {
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+}
+
+/* Input */
+#id-usuario {
+    padding: 8px;
+    border: 1px solid #888;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Botón */
+#boton-enviar {
+    padding: 10px;
+    background-color: #00157a; /* azul que vos usas */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#boton-enviar:hover {
+    background-color: #001da8;
+}
+
+.btn-admin {
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    background-color: #041575; /* azul */
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.btn-admin:hover {
+    background-color: #0620a6;
+}

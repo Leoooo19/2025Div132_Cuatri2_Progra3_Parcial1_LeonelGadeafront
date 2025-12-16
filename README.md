@@ -1,1 +1,2 @@
-# 2025Div132_Cuatri2_Progra3_Parcial1_LeonelGadeafront
+# grupo21Integrador25C2Div132_front
+mi vieja mula ya no es lo que era
